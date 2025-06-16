@@ -2,9 +2,9 @@ import requests
 import pytest
 from jsonschema import validate
 
-API = "regres-free-v1"
+API = "reqres-free-v1"
 HEADER = {
-    "x-api-key": API
+    "x-api-key": "reqres-free-v1"
 }
 schema = {
     "type": "object",
